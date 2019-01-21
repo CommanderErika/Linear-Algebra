@@ -18,9 +18,6 @@ private:
 
     int m,n;
 
-    // trying to figure it out what should i do with this //
-
-    //int k;
 
 
 public:
@@ -58,7 +55,7 @@ public:
 
     }
 
-    // This constructor use two paarameters a matrix and a array, like Ax = b or Ax = 0//
+    // This constructor use four parameters a matrix and a array nad its line and colum, like Ax = b or Ax = 0//
 
     MatrixOperation(float** _matrix, float* _array, int _line, int _colum){
 
@@ -102,8 +99,6 @@ public:
     // ===== GAUSSIAN ELIMINATION ===== //
 
     // This method do the Gaussian Elimination to find the solution of the system //
-    // naive elimination , 'cuz doesn't consider the zeros //
-    // n max = 100 //
     // I guess its complete //
 
     void gaussianElimination(){
